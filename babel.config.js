@@ -28,14 +28,6 @@ module.exports = ({ env }) => {
 
   const plugins = [
     '@babel/plugin-transform-runtime',
-    [
-      {
-        displayName: false,
-        ssr: false,
-        minify: !isDev,
-        pure: !isDev
-      }
-    ],
     ['lodash', { id: ['recompose'] }],
     '@babel/plugin-syntax-dynamic-import',
     '@babel/plugin-proposal-class-properties',
