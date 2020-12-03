@@ -1,0 +1,22 @@
+{
+  "name": "traininggame",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Memfisu/trainingGame.git"
+  },
+  "keywords": [
+    "training"
+  ],
+  "author": "Memfisu",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Memfisu/trainingGame/issues"
+  },
+  "homepage": "https://github.com/Memfisu/trainingGame#readme"
+}
