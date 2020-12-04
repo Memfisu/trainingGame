@@ -1,13 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Canvas from './components/Canvas';
 
-class App extends Component {
-    render() {
-        return (
-            <div>
-                <h1>{this.props.message}</h1>
-            </div>
-        );
-    }
-}
+const App = () => {
+  return <Canvas />;
+};
 
 export default App;
